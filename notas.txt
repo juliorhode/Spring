@@ -1,0 +1,29 @@
+Inversion Control
+------------------
+
+Inyeccion de Dependencias
+--------------------------
+El cliente delega con llamadas a otro objeto la responsabilidad 
+de proporcionar sus dependencias.
+
+Es un patron e diseño orientado a objetos, en el que se suministran
+objetos a una clase en lugar de ser la propia clase la que cree dichos
+objetos.
+
+Es un tercero (Spring), proporciona ese objeto. En vez de ser desde la clase
+usar la palabra reservada new... sin tener que instanciarla 
+
+ejemplo:
+el procesador, depende del disipador de calor para trabajar
+
+Las formas fundamentales son:
+1) Mediante constructor
+	1.1)Crear la clase e interfaz de la dependencia (informes)
+	1.2)Creacion de constructor en la clase para la inyeccion de la dependencia
+	1.3)Configurar la inyeccion de dependencia en archivo XML
+2) Mediante un setter
+	1.1)Crear la clase e interfaz de la dependencia (informe)
+	1.2)Creacion de metodo setter en la clase para la inyeccion
+	1.3)Configurar la inyeccion de dependencia en archivo XML
+
+
